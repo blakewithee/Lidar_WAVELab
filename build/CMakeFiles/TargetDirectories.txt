@@ -1,0 +1,3 @@
+/home/bmw25494/Software/Lidar/build/CMakeFiles/pcd_read.dir
+/home/bmw25494/Software/Lidar/build/CMakeFiles/edit_cache.dir
+/home/bmw25494/Software/Lidar/build/CMakeFiles/rebuild_cache.dir
