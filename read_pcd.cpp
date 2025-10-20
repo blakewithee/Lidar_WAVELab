@@ -11,6 +11,7 @@
 // ./pcd_read
 
 // Next Steps: segmentation of main file into another file, real time updates
+// segmentation with real scans
 
 int main ()
 {
