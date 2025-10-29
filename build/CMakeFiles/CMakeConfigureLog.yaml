@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/bmw25494/Software/Lidar/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+        /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/3.28.3/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/bmw25494/Software/Lidar/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+        /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-B5ruMw"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-B5ruMw"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-7vfJWj"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-7vfJWj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,13 +70,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-B5ruMw'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-7vfJWj'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_872e3/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_872e3.dir/build.make CMakeFiles/cmTC_872e3.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-B5ruMw'
-        Building C object CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dfdc5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dfdc5.dir/build.make CMakeFiles/cmTC_dfdc5.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-7vfJWj'
+        Building C object CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -86,8 +86,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872e3.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_872e3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccirSshg.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfdc5.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dfdc5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbRIvrw.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -104,15 +104,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872e3.dir/'
-         as -v --64 -o CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o /tmp/ccirSshg.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfdc5.dir/'
+         as -v --64 -o CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o /tmp/ccbRIvrw.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_872e3
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_872e3.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o -o cmTC_872e3 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_dfdc5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfdc5.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o -o cmTC_dfdc5 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -125,10 +125,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_872e3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_872e3.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBz1fI1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_872e3 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_872e3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_872e3.'
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-B5ruMw'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfdc5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfdc5.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRGVcyl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dfdc5 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfdc5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfdc5.'
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-7vfJWj'
         
       exitCode: 0
   -
@@ -162,13 +162,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-B5ruMw']
+        ignore line: [Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-7vfJWj']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_872e3/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_872e3.dir/build.make CMakeFiles/cmTC_872e3.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-B5ruMw']
-        ignore line: [Building C object CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dfdc5/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_dfdc5.dir/build.make CMakeFiles/cmTC_dfdc5.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-7vfJWj']
+        ignore line: [Building C object CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -178,8 +178,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872e3.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_872e3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccirSshg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfdc5.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dfdc5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbRIvrw.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -196,15 +196,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872e3.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o /tmp/ccirSshg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfdc5.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o /tmp/ccbRIvrw.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_872e3]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_872e3.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o -o cmTC_872e3 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_dfdc5]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfdc5.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o -o cmTC_dfdc5 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -217,13 +217,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_872e3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_872e3.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBz1fI1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_872e3 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfdc5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfdc5.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRGVcyl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dfdc5 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccBz1fI1.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccRGVcyl.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -241,7 +241,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_872e3] ==> ignore
+          arg [cmTC_dfdc5] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -253,7 +253,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_872e3.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_dfdc5.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -293,8 +293,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-aFyeab"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-aFyeab"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-K4uJ8n"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-K4uJ8n"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -302,13 +302,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-aFyeab'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-K4uJ8n'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dec55/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_dec55.dir/build.make CMakeFiles/cmTC_dec55.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-aFyeab'
-        Building CXX object CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7f8c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f7f8c.dir/build.make CMakeFiles/cmTC_f7f8c.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-K4uJ8n'
+        Building CXX object CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -318,8 +318,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dec55.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dec55.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cch8fjCo.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7f8c.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f7f8c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccVSQXSH.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -340,15 +340,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dec55.dir/'
-         as -v --64 -o CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o /tmp/cch8fjCo.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7f8c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVSQXSH.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_dec55
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec55.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dec55 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_f7f8c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7f8c.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f7f8c 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -361,10 +361,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dec55' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dec55.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMyXp4m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dec55 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dec55' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dec55.'
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-aFyeab'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7f8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7f8c.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrqllb1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f7f8c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7f8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7f8c.'
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-K4uJ8n'
         
       exitCode: 0
   -
@@ -404,13 +404,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-aFyeab']
+        ignore line: [Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-K4uJ8n']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dec55/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_dec55.dir/build.make CMakeFiles/cmTC_dec55.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-aFyeab']
-        ignore line: [Building CXX object CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7f8c/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f7f8c.dir/build.make CMakeFiles/cmTC_f7f8c.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-K4uJ8n']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -420,8 +420,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dec55.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dec55.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cch8fjCo.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7f8c.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f7f8c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccVSQXSH.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -442,15 +442,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dec55.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o /tmp/cch8fjCo.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7f8c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVSQXSH.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_dec55]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec55.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dec55 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_f7f8c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7f8c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f7f8c ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -463,13 +463,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dec55' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dec55.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMyXp4m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dec55 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7f8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7f8c.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrqllb1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f7f8c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccMyXp4m.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccrqllb1.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -487,7 +487,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_dec55] ==> ignore
+          arg [cmTC_f7f8c] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -499,7 +499,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_dec55.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_f7f8c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -526,10 +526,6 @@ events:
         implicit fwks: []
       
       
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -546,8 +542,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-7YNkDn"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-7YNkDn"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-zOfWcL"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-zOfWcL"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -557,17 +553,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-7YNkDn'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-zOfWcL'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d60bd/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_d60bd.dir/build.make CMakeFiles/cmTC_d60bd.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-7YNkDn'
-        Building C object CMakeFiles/cmTC_d60bd.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d60bd.dir/src.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-7YNkDn/src.c
-        Linking C executable cmTC_d60bd
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d60bd.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_d60bd.dir/src.c.o -o cmTC_d60bd 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-7YNkDn'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c4b5e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c4b5e.dir/build.make CMakeFiles/cmTC_c4b5e.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-zOfWcL'
+        Building C object CMakeFiles/cmTC_c4b5e.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c4b5e.dir/src.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-zOfWcL/src.c
+        Linking C executable cmTC_c4b5e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4b5e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c4b5e.dir/src.c.o -o cmTC_c4b5e 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-zOfWcL'
         
       exitCode: 0
   -
@@ -584,8 +580,8 @@ events:
       - "CMakeLists.txt:7 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-BmLZy5"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-BmLZy5"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-ajZOc6"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-ajZOc6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -595,17 +591,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-BmLZy5'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-ajZOc6'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c354/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5c354.dir/build.make CMakeFiles/cmTC_5c354.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-BmLZy5'
-        Building C object CMakeFiles/cmTC_5c354.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_5c354.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-BmLZy5/test_mpi.c
-        Linking C executable cmTC_5c354
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c354.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_5c354.dir/test_mpi.c.o -o cmTC_5c354  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-BmLZy5'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bc5e2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bc5e2.dir/build.make CMakeFiles/cmTC_bc5e2.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-ajZOc6'
+        Building C object CMakeFiles/cmTC_bc5e2.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_bc5e2.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-ajZOc6/test_mpi.c
+        Linking C executable cmTC_bc5e2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc5e2.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_bc5e2.dir/test_mpi.c.o -o cmTC_bc5e2  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-ajZOc6'
         
       exitCode: 0
   -
@@ -622,8 +618,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-QBKy5Q"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-QBKy5Q"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-9MxS25"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-9MxS25"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -633,17 +629,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-QBKy5Q'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-9MxS25'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_74796/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_74796.dir/build.make CMakeFiles/cmTC_74796.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-QBKy5Q'
-        Building C object CMakeFiles/cmTC_74796.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_74796.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-QBKy5Q/CheckFunctionExists.c
-        Linking C executable cmTC_74796
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74796.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_74796.dir/CheckFunctionExists.c.o -o cmTC_74796  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-QBKy5Q'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_645c6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_645c6.dir/build.make CMakeFiles/cmTC_645c6.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-9MxS25'
+        Building C object CMakeFiles/cmTC_645c6.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_645c6.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-9MxS25/CheckFunctionExists.c
+        Linking C executable cmTC_645c6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_645c6.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_645c6.dir/CheckFunctionExists.c.o -o cmTC_645c6  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-9MxS25'
         
       exitCode: 0
   -
@@ -660,8 +656,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-5t6jcR"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-5t6jcR"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-N3LySv"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-N3LySv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -671,17 +667,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-5t6jcR'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-N3LySv'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ac7e7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ac7e7.dir/build.make CMakeFiles/cmTC_ac7e7.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-5t6jcR'
-        Building C object CMakeFiles/cmTC_ac7e7.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_ac7e7.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-5t6jcR/CheckFunctionExists.c
-        Linking C executable cmTC_ac7e7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac7e7.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_ac7e7.dir/CheckFunctionExists.c.o -o cmTC_ac7e7 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-5t6jcR'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fd55b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fd55b.dir/build.make CMakeFiles/cmTC_fd55b.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-N3LySv'
+        Building C object CMakeFiles/cmTC_fd55b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_fd55b.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-N3LySv/CheckFunctionExists.c
+        Linking C executable cmTC_fd55b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd55b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_fd55b.dir/CheckFunctionExists.c.o -o cmTC_fd55b 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-N3LySv'
         
       exitCode: 0
   -
@@ -698,8 +694,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-JT6l1j"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-JT6l1j"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-QTgb5o"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-QTgb5o"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -709,17 +705,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-JT6l1j'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-QTgb5o'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fc56b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_fc56b.dir/build.make CMakeFiles/cmTC_fc56b.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-JT6l1j'
-        Building C object CMakeFiles/cmTC_fc56b.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_fc56b.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-JT6l1j/CheckFunctionExists.c
-        Linking C executable cmTC_fc56b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc56b.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_fc56b.dir/CheckFunctionExists.c.o -o cmTC_fc56b 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-JT6l1j'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7b92d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7b92d.dir/build.make CMakeFiles/cmTC_7b92d.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-QTgb5o'
+        Building C object CMakeFiles/cmTC_7b92d.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_7b92d.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-QTgb5o/CheckFunctionExists.c
+        Linking C executable cmTC_7b92d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b92d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_7b92d.dir/CheckFunctionExists.c.o -o cmTC_7b92d 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-QTgb5o'
         
       exitCode: 0
   -
@@ -736,8 +732,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VHEPJ3"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VHEPJ3"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-W5aYPK"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-W5aYPK"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -747,17 +743,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VHEPJ3'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-W5aYPK'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_72a72/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_72a72.dir/build.make CMakeFiles/cmTC_72a72.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VHEPJ3'
-        Building C object CMakeFiles/cmTC_72a72.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_72a72.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VHEPJ3/CheckFunctionExists.c
-        Linking C executable cmTC_72a72
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72a72.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_72a72.dir/CheckFunctionExists.c.o -o cmTC_72a72 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VHEPJ3'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ce97d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ce97d.dir/build.make CMakeFiles/cmTC_ce97d.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-W5aYPK'
+        Building C object CMakeFiles/cmTC_ce97d.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_ce97d.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-W5aYPK/CheckFunctionExists.c
+        Linking C executable cmTC_ce97d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce97d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_ce97d.dir/CheckFunctionExists.c.o -o cmTC_ce97d 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-W5aYPK'
         
       exitCode: 0
   -
@@ -774,8 +770,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-dhhfdG"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-dhhfdG"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-FLDupF"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-FLDupF"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -785,17 +781,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-dhhfdG'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-FLDupF'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bb54e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_bb54e.dir/build.make CMakeFiles/cmTC_bb54e.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-dhhfdG'
-        Building C object CMakeFiles/cmTC_bb54e.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_bb54e.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-dhhfdG/CheckFunctionExists.c
-        Linking C executable cmTC_bb54e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb54e.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_bb54e.dir/CheckFunctionExists.c.o -o cmTC_bb54e 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-dhhfdG'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e31b7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e31b7.dir/build.make CMakeFiles/cmTC_e31b7.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-FLDupF'
+        Building C object CMakeFiles/cmTC_e31b7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_e31b7.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-FLDupF/CheckFunctionExists.c
+        Linking C executable cmTC_e31b7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e31b7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_e31b7.dir/CheckFunctionExists.c.o -o cmTC_e31b7 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-FLDupF'
         
       exitCode: 0
   -
@@ -812,8 +808,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-nfIbi5"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-nfIbi5"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-IT4RhE"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-IT4RhE"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -823,17 +819,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-nfIbi5'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-IT4RhE'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9db60/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9db60.dir/build.make CMakeFiles/cmTC_9db60.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-nfIbi5'
-        Building C object CMakeFiles/cmTC_9db60.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_9db60.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-nfIbi5/CheckFunctionExists.c
-        Linking C executable cmTC_9db60
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9db60.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_9db60.dir/CheckFunctionExists.c.o -o cmTC_9db60  -lICE 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-nfIbi5'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97746/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_97746.dir/build.make CMakeFiles/cmTC_97746.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-IT4RhE'
+        Building C object CMakeFiles/cmTC_97746.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_97746.dir/CheckFunctionExists.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-IT4RhE/CheckFunctionExists.c
+        Linking C executable cmTC_97746
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97746.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_97746.dir/CheckFunctionExists.c.o -o cmTC_97746  -lICE 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-IT4RhE'
         
       exitCode: 0
   -
@@ -845,8 +841,8 @@ events:
       - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
       - "CMakeLists.txt:7 (find_package)"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -856,13 +852,13 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb3a3/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_fb3a3.dir/build.make CMakeFiles/cmTC_fb3a3.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.o
-        /usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_56a59/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_56a59.dir/build.make CMakeFiles/cmTC_56a59.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -872,8 +868,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fb3a3.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/bmw25494/Software/Lidar/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_fb3a3.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cchsbSjD.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_56a59.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_56a59.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8JrQ3b.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -890,15 +886,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fb3a3.dir/'
-         as -v --64 -o CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.o /tmp/cchsbSjD.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_56a59.dir/'
+         as -v --64 -o CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.o /tmp/cc8JrQ3b.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.'
-        Linking C executable cmTC_fb3a3
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb3a3.dir/link.txt --verbose=1
-        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.o -o cmTC_fb3a3  -v 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_56a59
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56a59.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.o -o cmTC_56a59  -v 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -912,10 +908,10 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_fb3a3' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_fb3a3.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNymgSh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fb3a3 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_fb3a3.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_fb3a3' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_fb3a3.'
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_56a59' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_56a59.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOo8ZiK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_56a59 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_56a59.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_56a59' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_56a59.'
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
         
       exitCode: 0
   -
@@ -927,8 +923,8 @@ events:
       - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
       - "CMakeLists.txt:7 (find_package)"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -938,13 +934,13 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1a27d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1a27d.dir/build.make CMakeFiles/cmTC_1a27d.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.o
-        /usr/bin/c++   -fopenmp -v -o CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cac3a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cac3a.dir/build.make CMakeFiles/cmTC_cac3a.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fopenmp -v -o CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -954,8 +950,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1a27d.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/bmw25494/Software/Lidar/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_1a27d.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccea8WyB.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_cac3a.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_cac3a.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccs1PnWK.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -976,15 +972,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1a27d.dir/'
-         as -v --64 -o CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.o /tmp/ccea8WyB.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_cac3a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.o /tmp/ccs1PnWK.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.'
-        Linking CXX executable cmTC_1a27d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a27d.dir/link.txt --verbose=1
-        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.o -o cmTC_1a27d  -v 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_cac3a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cac3a.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.o -o cmTC_cac3a  -v 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -998,10 +994,10 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_1a27d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_1a27d.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZmh6Ru.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1a27d /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_1a27d.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_1a27d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_1a27d.'
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_cac3a' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_cac3a.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLq6sKl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cac3a /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_cac3a.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_cac3a' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_cac3a.'
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
         
       exitCode: 0
   -
@@ -1013,8 +1009,8 @@ events:
       - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
       - "CMakeLists.txt:7 (find_package)"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1024,168 +1020,17 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f0e64/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f0e64.dir/build.make CMakeFiles/cmTC_f0e64.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_f0e64.dir/OpenMPCheckVersion.cpp.o
-        /usr/bin/c++   -fopenmp -o CMakeFiles/cmTC_f0e64.dir/OpenMPCheckVersion.cpp.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
-        Linking CXX executable cmTC_f0e64
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0e64.dir/link.txt --verbose=1
-        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_f0e64.dir/OpenMPCheckVersion.cpp.o -o cmTC_f0e64 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeTmp'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
-      - "CMakeLists.txt:7 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-EgymEp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-EgymEp"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-EgymEp'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_adc43/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_adc43.dir/build.make CMakeFiles/cmTC_adc43.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-EgymEp'
-        Building C object CMakeFiles/cmTC_adc43.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_adc43.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-EgymEp/test_mpi.c
-        Linking C executable cmTC_adc43
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adc43.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_adc43.dir/test_mpi.c.o -o cmTC_adc43  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-EgymEp'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ReRFSK"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ReRFSK"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ReRFSK'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a89a9/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a89a9.dir/build.make CMakeFiles/cmTC_a89a9.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ReRFSK'
-        Building C object CMakeFiles/cmTC_a89a9.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a89a9.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ReRFSK/test_mpi.c
-        Linking C executable cmTC_a89a9
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a89a9.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a89a9.dir/test_mpi.c.o -o cmTC_a89a9  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ReRFSK'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3197b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3197b.dir/build.make CMakeFiles/cmTC_3197b.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_3197b.dir/cmake_hdf5_test.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_3197b.dir/cmake_hdf5_test.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c
-        /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
-            1 | #include <hdf5.h>
-              |          ^~~~~~~~
-        compilation terminated.
-        gmake[1]: *** [CMakeFiles/cmTC_3197b.dir/build.make:78: CMakeFiles/cmTC_3197b.dir/cmake_hdf5_test.c.o] Error 1
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        gmake: *** [Makefile:127: cmTC_3197b/fast] Error 2
-        
-      exitCode: 2
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
-      - "CMakeLists.txt:7 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-Zstvir"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-Zstvir"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-Zstvir'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1fac9/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1fac9.dir/build.make CMakeFiles/cmTC_1fac9.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-Zstvir'
-        Building C object CMakeFiles/cmTC_1fac9.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_1fac9.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-Zstvir/test_mpi.c
-        Linking C executable cmTC_1fac9
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fac9.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_1fac9.dir/test_mpi.c.o -o cmTC_1fac9  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-Zstvir'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe210/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fe210.dir/build.make CMakeFiles/cmTC_fe210.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_fe210.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fopenmp -o CMakeFiles/cmTC_fe210.dir/OpenMPCheckVersion.cpp.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_fe210
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe210.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_fe210.dir/OpenMPCheckVersion.cpp.o -o cmTC_fe210 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeTmp'
         
       exitCode: 0
   -
@@ -1202,8 +1047,8 @@ events:
       - "CMakeLists.txt:7 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-or2p5E"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-or2p5E"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-xya8n1"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-xya8n1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1213,17 +1058,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-or2p5E'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-xya8n1'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_857f0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_857f0.dir/build.make CMakeFiles/cmTC_857f0.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-or2p5E'
-        Building C object CMakeFiles/cmTC_857f0.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_857f0.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-or2p5E/test_mpi.c
-        Linking C executable cmTC_857f0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_857f0.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_857f0.dir/test_mpi.c.o -o cmTC_857f0  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-or2p5E'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34f5f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_34f5f.dir/build.make CMakeFiles/cmTC_34f5f.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-xya8n1'
+        Building C object CMakeFiles/cmTC_34f5f.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_34f5f.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-xya8n1/test_mpi.c
+        Linking C executable cmTC_34f5f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f5f.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_34f5f.dir/test_mpi.c.o -o cmTC_34f5f  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-xya8n1'
         
       exitCode: 0
   -
@@ -1237,8 +1082,8 @@ events:
       - "CMakeLists.txt:8 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-TLrtq7"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-TLrtq7"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-HCU7be"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-HCU7be"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1248,17 +1093,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-TLrtq7'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-HCU7be'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e2336/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e2336.dir/build.make CMakeFiles/cmTC_e2336.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-TLrtq7'
-        Building C object CMakeFiles/cmTC_e2336.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_e2336.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-TLrtq7/test_mpi.c
-        Linking C executable cmTC_e2336
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2336.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_e2336.dir/test_mpi.c.o -o cmTC_e2336  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-TLrtq7'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2d699/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2d699.dir/build.make CMakeFiles/cmTC_2d699.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-HCU7be'
+        Building C object CMakeFiles/cmTC_2d699.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_2d699.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-HCU7be/test_mpi.c
+        Linking C executable cmTC_2d699
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d699.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_2d699.dir/test_mpi.c.o -o cmTC_2d699  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-HCU7be'
         
       exitCode: 0
   -
@@ -1270,8 +1115,8 @@ events:
       - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
       - "CMakeLists.txt:8 (find_package)"
     directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1281,481 +1126,20 @@ events:
       variable: "HDF5_C_COMPILER_NO_INTERROGATE"
       cached: true
       stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_110df/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_110df.dir/build.make CMakeFiles/cmTC_110df.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_110df.dir/cmake_hdf5_test.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_110df.dir/cmake_hdf5_test.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c
-        /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_95a08/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_95a08.dir/build.make CMakeFiles/cmTC_95a08.dir/build
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_95a08.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_95a08.dir/cmake_hdf5_test.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
             1 | #include <hdf5.h>
               |          ^~~~~~~~
         compilation terminated.
-        gmake[1]: *** [CMakeFiles/cmTC_110df.dir/build.make:78: CMakeFiles/cmTC_110df.dir/cmake_hdf5_test.c.o] Error 1
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        gmake: *** [Makefile:127: cmTC_110df/fast] Error 2
-        
-      exitCode: 2
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
-      - "CMakeLists.txt:7 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-RdFZA7"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-RdFZA7"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-RdFZA7'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8712f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8712f.dir/build.make CMakeFiles/cmTC_8712f.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-RdFZA7'
-        Building C object CMakeFiles/cmTC_8712f.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_8712f.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-RdFZA7/test_mpi.c
-        Linking C executable cmTC_8712f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8712f.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_8712f.dir/test_mpi.c.o -o cmTC_8712f  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-RdFZA7'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
-      - "CMakeLists.txt:7 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-v7L682"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-v7L682"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-v7L682'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8d1cb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8d1cb.dir/build.make CMakeFiles/cmTC_8d1cb.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-v7L682'
-        Building C object CMakeFiles/cmTC_8d1cb.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_8d1cb.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-v7L682/test_mpi.c
-        Linking C executable cmTC_8d1cb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d1cb.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_8d1cb.dir/test_mpi.c.o -o cmTC_8d1cb  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-v7L682'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-uuOzXr"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-uuOzXr"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-uuOzXr'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a40fb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a40fb.dir/build.make CMakeFiles/cmTC_a40fb.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-uuOzXr'
-        Building C object CMakeFiles/cmTC_a40fb.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a40fb.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-uuOzXr/test_mpi.c
-        Linking C executable cmTC_a40fb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a40fb.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a40fb.dir/test_mpi.c.o -o cmTC_a40fb  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-uuOzXr'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e7ca/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3e7ca.dir/build.make CMakeFiles/cmTC_3e7ca.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_3e7ca.dir/cmake_hdf5_test.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_3e7ca.dir/cmake_hdf5_test.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c
-        /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
-            1 | #include <hdf5.h>
-              |          ^~~~~~~~
-        compilation terminated.
-        gmake[1]: *** [CMakeFiles/cmTC_3e7ca.dir/build.make:78: CMakeFiles/cmTC_3e7ca.dir/cmake_hdf5_test.c.o] Error 1
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        gmake: *** [Makefile:127: cmTC_3e7ca/fast] Error 2
-        
-      exitCode: 2
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
-      - "CMakeLists.txt:7 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ySKM0U"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ySKM0U"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ySKM0U'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ed6ca/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ed6ca.dir/build.make CMakeFiles/cmTC_ed6ca.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ySKM0U'
-        Building C object CMakeFiles/cmTC_ed6ca.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ed6ca.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ySKM0U/test_mpi.c
-        Linking C executable cmTC_ed6ca
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed6ca.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_ed6ca.dir/test_mpi.c.o -o cmTC_ed6ca  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-ySKM0U'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
-      - "CMakeLists.txt:7 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-6cF4lG"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-6cF4lG"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-6cF4lG'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0f4e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a0f4e.dir/build.make CMakeFiles/cmTC_a0f4e.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-6cF4lG'
-        Building C object CMakeFiles/cmTC_a0f4e.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a0f4e.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-6cF4lG/test_mpi.c
-        Linking C executable cmTC_a0f4e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0f4e.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a0f4e.dir/test_mpi.c.o -o cmTC_a0f4e  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-6cF4lG'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-XwoP0L"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-XwoP0L"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-XwoP0L'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_282c0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_282c0.dir/build.make CMakeFiles/cmTC_282c0.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-XwoP0L'
-        Building C object CMakeFiles/cmTC_282c0.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_282c0.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-XwoP0L/test_mpi.c
-        Linking C executable cmTC_282c0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_282c0.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_282c0.dir/test_mpi.c.o -o cmTC_282c0  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-XwoP0L'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e92e3/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e92e3.dir/build.make CMakeFiles/cmTC_e92e3.dir/build
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_e92e3.dir/cmake_hdf5_test.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_e92e3.dir/cmake_hdf5_test.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c
-        /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
-            1 | #include <hdf5.h>
-              |          ^~~~~~~~
-        compilation terminated.
-        gmake[1]: *** [CMakeFiles/cmTC_e92e3.dir/build.make:78: CMakeFiles/cmTC_e92e3.dir/cmake_hdf5_test.c.o] Error 1
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        gmake: *** [Makefile:127: cmTC_e92e3/fast] Error 2
-        
-      exitCode: 2
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
-      - "CMakeLists.txt:7 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VWpP0L"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VWpP0L"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VWpP0L'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b1755/fast
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VWpP0L'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b1755.dir/build.make CMakeFiles/cmTC_b1755.dir/build
-        gmake[2]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VWpP0L'
-        Building C object CMakeFiles/cmTC_b1755.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b1755.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VWpP0L/test_mpi.c
-        Linking C executable cmTC_b1755
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1755.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b1755.dir/test_mpi.c.o -o cmTC_b1755  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[2]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VWpP0L'
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-VWpP0L'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
-      - "CMakeLists.txt:7 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-taQYaT"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-taQYaT"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-taQYaT'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3b80a/fast
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-taQYaT'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3b80a.dir/build.make CMakeFiles/cmTC_3b80a.dir/build
-        gmake[2]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-taQYaT'
-        Building C object CMakeFiles/cmTC_3b80a.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3b80a.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-taQYaT/test_mpi.c
-        Linking C executable cmTC_3b80a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b80a.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_3b80a.dir/test_mpi.c.o -o cmTC_3b80a  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[2]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-taQYaT'
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-taQYaT'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-szkn7E"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-szkn7E"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-szkn7E'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e4f0/fast
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-szkn7E'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3e4f0.dir/build.make CMakeFiles/cmTC_3e4f0.dir/build
-        gmake[2]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-szkn7E'
-        Building C object CMakeFiles/cmTC_3e4f0.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3e4f0.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-szkn7E/test_mpi.c
-        Linking C executable cmTC_3e4f0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e4f0.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_3e4f0.dir/test_mpi.c.o -o cmTC_3e4f0  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[2]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-szkn7E'
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/CMakeScratch/TryCompile-szkn7E'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
-      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    directories:
-      source: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-      binary: "/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
-    buildResult:
-      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
-      cached: true
-      stdout: |
-        Change Dir: '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5aa9b/fast
-        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5aa9b.dir/build.make CMakeFiles/cmTC_5aa9b.dir/build
-        gmake[2]: Entering directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_5aa9b.dir/cmake_hdf5_test.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_5aa9b.dir/cmake_hdf5_test.c.o -c /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c
-        /home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
-            1 | #include <hdf5.h>
-              |          ^~~~~~~~
-        compilation terminated.
-        gmake[2]: *** [CMakeFiles/cmTC_5aa9b.dir/build.make:78: CMakeFiles/cmTC_5aa9b.dir/cmake_hdf5_test.c.o] Error 1
-        gmake[2]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
-        gmake[1]: *** [Makefile:127: cmTC_5aa9b/fast] Error 2
-        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake[1]: *** [CMakeFiles/cmTC_95a08.dir/build.make:78: CMakeFiles/cmTC_95a08.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_95a08/fast] Error 2
         
       exitCode: 2
 ...

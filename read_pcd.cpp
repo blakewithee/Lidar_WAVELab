@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <pcl/visualization/cloud_viewer.h>
 #include <pcl/io/pcd_io.h>
@@ -18,7 +19,7 @@ int main ()
 
   // Point cloud file instantiation
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
-  if (pcl::io::loadPCDFile<pcl::PointXYZ> ("/home/bmw25494/Desktop/LiDAR_Scans/Test.pcd", *cloud) == -1) // load the file
+  if (pcl::io::loadPCDFile<pcl::PointXYZ> ("/home/bmw25494/Desktop/LiDAR_Scans/SetupTest.pcd", *cloud) == -1) // load the file
   {
     PCL_ERROR ("Couldn't read file Test.pcd \n");
 
@@ -31,7 +32,7 @@ int main ()
   for (int i = 0; i < (*cloud).size(); i++)
   {
     pcl::PointXYZ pt(cloud->points[i].x, cloud->points[i].y, cloud->points[i].z);
-    if (pt.y > 1.2) // e.g. remove all pts above y = 1.2
+    if (pt.x > 0.07 || pt.y > 0.9 || pt.y < -0.57 || pt.z > 4 || pt.z < 1.5) // e.g. remove all pts above y = 1.2
     {
       inliers->indices.push_back(i);
     }
@@ -50,13 +51,16 @@ int main ()
 
             << std::endl;
 
-  for (const auto& point: *cloud)
+  //for (const auto& point: *cloud)
+  for (const auto& point : cloud->points)
 
     std::cout << "    " << point.x
 
               << " "    << point.y
 
-              << " "    << point.z << std::endl;
+              << " "    << point.z
+
+              << " "    << point.reflectance << std::endl;
   
   // Visualizing point cloud
   pcl::visualization::CloudViewer viewer ("Simple Cloud Viewer");
@@ -66,4 +70,61 @@ int main ()
   
   // End
   return (0);
+}
+*/
+// FIX: Force PCL to compile templates for our custom point type
+#define PCL_NO_PRECOMPILE
+
+#include <iostream>
+#include <pcl/io/pcd_io.h>
+#include <pcl/point_types.h>
+#include <pcl/visualization/pcl_visualizer.h>
+#include <pcl/register_point_struct.h>
+
+// It's good practice to include these for the visualization loop
+#include <boost/thread/thread.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
+
+// Your custom point type definition (no changes needed here)
+struct PointXYZReflectance
+{
+    PCL_ADD_POINT4D;
+    uint16_t reflectance;
+    EIGEN_MAKE_ALIGNED_OPERATOR_NEW
+} EIGEN_ALIGN16;
+
+POINT_CLOUD_REGISTER_POINT_STRUCT(PointXYZReflectance,
+    (float, x, x)
+    (float, y, y)
+    (float, z, z)
+    (uint16_t, reflectance, reflectance)
+)
+
+int main()
+{
+    pcl::PointCloud<PointXYZReflectance>::Ptr cloud(new pcl::PointCloud<PointXYZReflectance>);
+
+    if (pcl::io::loadPCDFile<PointXYZReflectance>("/home/bmw25494/Desktop/LiDAR_Scans/SetupTest.pcd", *cloud) == -1) {
+        PCL_ERROR("Couldn't read file\n");
+        return -1;
+    }
+
+    std::cout << "Loaded " << cloud->size() << " points\n";
+
+    // --- Visualization Setup ---
+    pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("Reflectance Viewer"));
+    viewer->setBackgroundColor(0.1, 0.1, 0.1);
+
+    pcl::visualization::PointCloudColorHandlerGenericField<PointXYZReflectance> reflectance_color_handler(cloud, "reflectance");
+
+    viewer->addPointCloud<PointXYZReflectance>(cloud, reflectance_color_handler, "reflectance cloud");
+    viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 2, "reflectance cloud");
+
+    viewer->resetCamera();
+
+    while (!viewer->wasStopped())
+    {
+        // Tells the viewer to process events and update the screen
+        viewer->spinOnce(100);
+    }
 }
