@@ -72,7 +72,6 @@ int main ()
   return (0);
 }
 */
-// FIX: Force PCL to compile templates for our custom point type
 #define PCL_NO_PRECOMPILE
 
 #include <iostream>
@@ -80,6 +79,8 @@ int main ()
 #include <pcl/point_types.h>
 #include <pcl/visualization/pcl_visualizer.h>
 #include <pcl/register_point_struct.h>
+#include <pcl/filters/passthrough.h>
+
 
 // It's good practice to include these for the visualization loop
 #include <boost/thread/thread.hpp>
@@ -108,16 +109,56 @@ int main()
         PCL_ERROR("Couldn't read file\n");
         return -1;
     }
+    
+    // Create a new cloud to store the filtered results
+    pcl::PointCloud<PointXYZReflectance>::Ptr filtered_cloud(new pcl::PointCloud<PointXYZReflectance>);
 
-    std::cout << "Loaded " << cloud->size() << " points\n";
+    // --- Filtering Example ---
+    pcl::PassThrough<PointXYZReflectance> pass;
+    pass.setInputCloud(cloud);
+
+    // Filter along the X axis (height)
+    pass.setFilterFieldName("x");
+    pass.setFilterLimits(-0.6, -0.325);
+    pass.filter(*filtered_cloud);
+
+    // Now filter along Y (width)
+    pcl::PassThrough<PointXYZReflectance> pass_y;
+    pass_y.setInputCloud(filtered_cloud);
+    pass_y.setFilterFieldName("y");
+    pass_y.setFilterLimits(-0.57, -0.25);
+    pass_y.filter(*filtered_cloud);
+
+    // Filter along Z (length)
+    pcl::PassThrough<PointXYZReflectance> pass_z;
+    pass_z.setInputCloud(filtered_cloud);
+    pass_z.setFilterFieldName("z");
+    pass_z.setFilterLimits(3, 4);
+    pass_z.filter(*filtered_cloud);
+
+    std::cout << "Original cloud has " << cloud->size() << " points\n";
+    std::cout << "Filtered cloud has " << filtered_cloud->size() << " points\n";
+
+    // --- Save the filtered cloud ---
+    pcl::io::savePCDFileBinary("/home/bmw25494/Desktop/LiDAR_Scans/FilteredCloud.pcd", *filtered_cloud);
+    
+    for (const auto& point : filtered_cloud->points)
+
+    std::cout << "    " << point.x
+
+              << " "    << point.y
+
+              << " "    << point.z
+
+              << " "    << point.reflectance << std::endl;
 
     // --- Visualization Setup ---
     pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("Reflectance Viewer"));
     viewer->setBackgroundColor(0.1, 0.1, 0.1);
 
-    pcl::visualization::PointCloudColorHandlerGenericField<PointXYZReflectance> reflectance_color_handler(cloud, "reflectance");
+    pcl::visualization::PointCloudColorHandlerGenericField<PointXYZReflectance> reflectance_color_handler(filtered_cloud, "reflectance");
 
-    viewer->addPointCloud<PointXYZReflectance>(cloud, reflectance_color_handler, "reflectance cloud");
+    viewer->addPointCloud<PointXYZReflectance>(filtered_cloud, reflectance_color_handler, "reflectance cloud");
     viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 2, "reflectance cloud");
 
     viewer->resetCamera();

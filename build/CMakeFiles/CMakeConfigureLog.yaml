@@ -1143,3 +1143,162 @@ events:
         
       exitCode: 2
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-Dnxp24"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-Dnxp24"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-Dnxp24'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6fce0/fast
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-Dnxp24'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6fce0.dir/build.make CMakeFiles/cmTC_6fce0.dir/build
+        gmake[2]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-Dnxp24'
+        Building C object CMakeFiles/cmTC_6fce0.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_6fce0.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-Dnxp24/test_mpi.c
+        Linking C executable cmTC_6fce0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fce0.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_6fce0.dir/test_mpi.c.o -o cmTC_6fce0  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-Dnxp24'
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-Dnxp24'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-4qdQ1l"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-4qdQ1l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-4qdQ1l'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_da638/fast
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-4qdQ1l'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_da638.dir/build.make CMakeFiles/cmTC_da638.dir/build
+        gmake[2]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-4qdQ1l'
+        Building C object CMakeFiles/cmTC_da638.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_da638.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-4qdQ1l/test_mpi.c
+        Linking C executable cmTC_da638
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da638.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_da638.dir/test_mpi.c.o -o cmTC_da638  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-4qdQ1l'
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-4qdQ1l'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-suRbeU"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-suRbeU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-suRbeU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9383e/fast
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-suRbeU'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9383e.dir/build.make CMakeFiles/cmTC_9383e.dir/build
+        gmake[2]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-suRbeU'
+        Building C object CMakeFiles/cmTC_9383e.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_9383e.dir/test_mpi.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-suRbeU/test_mpi.c
+        Linking C executable cmTC_9383e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9383e.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_9383e.dir/test_mpi.c.o -o cmTC_9383e  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-suRbeU'
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/CMakeScratch/TryCompile-suRbeU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    directories:
+      source: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dfe3a/fast
+        gmake[1]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dfe3a.dir/build.make CMakeFiles/cmTC_dfe3a.dir/build
+        gmake[2]: Entering directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_dfe3a.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_dfe3a.dir/cmake_hdf5_test.c.o -c /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[2]: *** [CMakeFiles/cmTC_dfe3a.dir/build.make:78: CMakeFiles/cmTC_dfe3a.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[2]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake[1]: *** [Makefile:127: cmTC_dfe3a/fast] Error 2
+        gmake[1]: Leaving directory '/home/bmw25494/Software/Lidar_WAVELab/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+      exitCode: 2
+...
