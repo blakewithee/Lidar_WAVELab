@@ -80,13 +80,12 @@ int main ()
 #include <pcl/visualization/pcl_visualizer.h>
 #include <pcl/register_point_struct.h>
 #include <pcl/filters/passthrough.h>
+#include <pcl/filters/extract_indices.h>
 
-
-// It's good practice to include these for the visualization loop
 #include <boost/thread/thread.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
-// Your custom point type definition (no changes needed here)
+// Custom point type (with reflectance)
 struct PointXYZReflectance
 {
     PCL_ADD_POINT4D;
@@ -94,6 +93,7 @@ struct PointXYZReflectance
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW
 } EIGEN_ALIGN16;
 
+// Register point type with PCL Library
 POINT_CLOUD_REGISTER_POINT_STRUCT(PointXYZReflectance,
     (float, x, x)
     (float, y, y)
@@ -103,6 +103,7 @@ POINT_CLOUD_REGISTER_POINT_STRUCT(PointXYZReflectance,
 
 int main()
 {
+    // Load full original scan
     pcl::PointCloud<PointXYZReflectance>::Ptr cloud(new pcl::PointCloud<PointXYZReflectance>);
 
     if (pcl::io::loadPCDFile<PointXYZReflectance>("/home/bmw25494/Desktop/LiDAR_Scans/SetupTest.pcd", *cloud) == -1) {
@@ -136,21 +137,59 @@ int main()
     pass_z.setFilterLimits(3, 4);
     pass_z.filter(*filtered_cloud);
 
+    // Filter by reflectance
+    pcl::PointIndices::Ptr inliers(new pcl::PointIndices());
+    pcl::ExtractIndices<PointXYZReflectance> extract;
+    int i = 0;
+    for (const auto& point : filtered_cloud->points)
+    {
+      if (point.reflectance < 20) // filter out pot and surrounding area
+      {
+        inliers->indices.push_back(i);
+      }
+      i = i + 1;
+    }
+    extract.setInputCloud(filtered_cloud);
+    extract.setIndices(inliers);
+    extract.setNegative(true);
+    extract.filter(*filtered_cloud);
+
     std::cout << "Original cloud has " << cloud->size() << " points\n";
     std::cout << "Filtered cloud has " << filtered_cloud->size() << " points\n";
 
     // --- Save the filtered cloud ---
     pcl::io::savePCDFileBinary("/home/bmw25494/Desktop/LiDAR_Scans/FilteredCloud.pcd", *filtered_cloud);
-    
+
+    // --- Print filtered values ---
+    uint16_t average_ref = 0;
+    uint16_t max_ref = 0;
+    uint16_t min_ref = 100;
     for (const auto& point : filtered_cloud->points)
+    {
+      std::cout << "    " << point.x
 
-    std::cout << "    " << point.x
+                << " "    << point.y
 
-              << " "    << point.y
+                << " "    << point.z
 
-              << " "    << point.z
+                << " "    << point.reflectance << std::endl;
 
-              << " "    << point.reflectance << std::endl;
+      average_ref = average_ref + point.reflectance; // for avg reflectance calculation
+
+      if (point.reflectance < min_ref) // find minimum reflectance in dataset
+      {
+        min_ref = point.reflectance;
+      }
+      if (point.reflectance > max_ref) // find maximum reflectance in dataset
+      {
+        max_ref = point.reflectance;
+      }
+    }
+    average_ref = average_ref / (*filtered_cloud).size(); // average reflectance 
+
+    std::cout << "Average reflectance is " << average_ref << "\n";
+    std::cout << "Maximum reflectance is " << max_ref << "\n";
+    std::cout << "Minimum reflectance is " << min_ref << "\n";
 
     // --- Visualization Setup ---
     pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("Reflectance Viewer"));
