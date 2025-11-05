@@ -1420,6 +1420,8 @@ CMakeFiles/pcd_read.dir/read_pcd.cpp.o: \
  /usr/include/pcl-1.14/pcl/filters/impl/filter.hpp \
  /usr/include/pcl-1.14/pcl/filters/impl/filter_indices.hpp \
  /usr/include/pcl-1.14/pcl/filters/impl/passthrough.hpp \
+ /usr/include/pcl-1.14/pcl/filters/extract_indices.h \
+ /usr/include/pcl-1.14/pcl/filters/impl/extract_indices.hpp \
  /usr/include/boost/thread/thread.hpp \
  /usr/include/boost/thread/thread_only.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
