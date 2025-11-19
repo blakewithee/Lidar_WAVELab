@@ -103,14 +103,29 @@ POINT_CLOUD_REGISTER_POINT_STRUCT(PointXYZReflectance,
 
 int main()
 {
-    // Load full original scan
+    // Load full original scan (DRY1)
     pcl::PointCloud<PointXYZReflectance>::Ptr cloud(new pcl::PointCloud<PointXYZReflectance>);
 
-    if (pcl::io::loadPCDFile<PointXYZReflectance>("/home/bmw25494/Desktop/LiDAR_Scans/SetupTest.pcd", *cloud) == -1) {
+    if (pcl::io::loadPCDFile<PointXYZReflectance>("/home/bmw25494/Desktop/LiDAR_Scans/Dry1.pcd", *cloud) == -1) {
         PCL_ERROR("Couldn't read file\n");
         return -1;
     }
     
+    // Load full original scan (DRY2)
+    pcl::PointCloud<PointXYZReflectance>::Ptr cloud2(new pcl::PointCloud<PointXYZReflectance>);
+
+    if (pcl::io::loadPCDFile<PointXYZReflectance>("/home/bmw25494/Desktop/LiDAR_Scans/Dry2.pcd", *cloud2) == -1) {
+        PCL_ERROR("Couldn't read file\n");
+        return -1;
+    }
+
+    // Load full original scan (DRY3)
+    pcl::PointCloud<PointXYZReflectance>::Ptr cloud3(new pcl::PointCloud<PointXYZReflectance>);
+
+    if (pcl::io::loadPCDFile<PointXYZReflectance>("/home/bmw25494/Desktop/LiDAR_Scans/Dry3.pcd", *cloud3) == -1) {
+        PCL_ERROR("Couldn't read file\n");
+        return -1;
+    }
     // Create a new cloud to store the filtered results
     pcl::PointCloud<PointXYZReflectance>::Ptr filtered_cloud(new pcl::PointCloud<PointXYZReflectance>);
 
@@ -120,14 +135,14 @@ int main()
 
     // Filter along the X axis (height)
     pass.setFilterFieldName("x");
-    pass.setFilterLimits(-0.6, -0.325);
+    pass.setFilterLimits(-0.49, -0.34);
     pass.filter(*filtered_cloud);
 
     // Now filter along Y (width)
     pcl::PassThrough<PointXYZReflectance> pass_y;
     pass_y.setInputCloud(filtered_cloud);
     pass_y.setFilterFieldName("y");
-    pass_y.setFilterLimits(-0.57, -0.25);
+    pass_y.setFilterLimits(-0.32, -0.15);
     pass_y.filter(*filtered_cloud);
 
     // Filter along Z (length)
@@ -137,13 +152,14 @@ int main()
     pass_z.setFilterLimits(3, 4);
     pass_z.filter(*filtered_cloud);
 
+    /*
     // Filter by reflectance
     pcl::PointIndices::Ptr inliers(new pcl::PointIndices());
     pcl::ExtractIndices<PointXYZReflectance> extract;
     int i = 0;
     for (const auto& point : filtered_cloud->points)
     {
-      if (point.reflectance < 20) // filter out pot and surrounding area
+      if (point.reflectance < 23) // filter out pot and surrounding area
       {
         inliers->indices.push_back(i);
       }
@@ -153,6 +169,7 @@ int main()
     extract.setIndices(inliers);
     extract.setNegative(true);
     extract.filter(*filtered_cloud);
+    */
 
     std::cout << "Original cloud has " << cloud->size() << " points\n";
     std::cout << "Filtered cloud has " << filtered_cloud->size() << " points\n";
