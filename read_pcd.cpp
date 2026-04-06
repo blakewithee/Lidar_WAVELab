@@ -171,8 +171,8 @@ int main()
     extract.filter(*filtered_cloud);
     */
 
-    std::cout << "Original cloud has " << cloud->size() << " points\n";
-    std::cout << "Filtered cloud has " << filtered_cloud->size() << " points\n";
+    // std::cout << "Original cloud has " << cloud->size() << " points\n";
+    // std::cout << "Filtered cloud has " << filtered_cloud->size() << " points\n";
 
     // --- Save the filtered cloud ---
     pcl::io::savePCDFileBinary("/home/bmw25494/Desktop/LiDAR_Scans/FilteredCloud.pcd", *filtered_cloud);
